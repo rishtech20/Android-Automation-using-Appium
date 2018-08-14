@@ -29,7 +29,7 @@ public class Basics extends Base{
 		Thread.sleep(2000);
 		//driver.findElementById("android:id/button1").click();
 		//identifying the duplicated instances using the .get() method - pulls the result
-		driver.findElementsByClassName("android.widget.Button").get(1).click();
+		driver.findElementsByClassName("android.widget.Button").get(2).click();
 	}
 
 }

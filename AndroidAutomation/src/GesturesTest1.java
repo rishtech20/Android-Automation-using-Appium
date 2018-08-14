@@ -36,7 +36,9 @@ public class GesturesTest1 extends Base{
 		
 		//Validating the text present in an object of the application
 		//Type casting to AndroidElement is important
-		System.out.println(((AndroidElement)driver.findElementsById("android:id/alertTitle")).getText());
+		if(driver.findElementByAndroidUIAutomator("text(\"Sample menu\")").getText().equals("Sample menu")) {
+			System.out.println("True");
+		}
 		
 		
 	}
