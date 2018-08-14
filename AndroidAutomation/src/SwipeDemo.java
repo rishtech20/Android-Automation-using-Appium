@@ -40,7 +40,7 @@ public class SwipeDemo extends Base{
 		
 		//Drag the element to 
 		ElementOption fortyFive = ElementOption.element(driver.findElementByXPath("//*[@content-desc = '45']"));
-		Duration pressTime = Duration.ofSeconds(3);
+		Duration pressTime = Duration.ofSeconds(1);
 		t.longPress(LongPressOptions.longPressOptions().withElement(fifteen).withDuration(pressTime)).moveTo(fortyFive).release().perform();
 		
 	}
