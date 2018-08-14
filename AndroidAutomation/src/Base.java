@@ -10,7 +10,7 @@ public class Base {
 	//This method sets all the capabilities and then, returns the driver to the caller
 	//Opens the emulator - establishes connection with the device on which automation is to be done
 	//Launches the application to be tested
-	//Finally, the web driver is launched and the connection to server is made
+	//Finally, the web driver is launched and the connection to server is made	
 	public static AndroidDriver<AndroidElement> Capabilities() throws MalformedURLException {
 		//Appium code goes here...
 		//Using the file method to specify the location of the apk file
