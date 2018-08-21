@@ -25,6 +25,5 @@ public class DragAndDrop extends Base {
 		ElementOption to = ElementOption.element(driver.findElementsByClassName("android.view.View").get(1));
 		Duration pressTime = Duration.ofMillis(150);
 		t.longPress(LongPressOptions.longPressOptions().withElement(from).withDuration(pressTime)).moveTo(to).release().perform();
-		
 	}
 }
