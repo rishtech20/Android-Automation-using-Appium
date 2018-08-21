@@ -24,8 +24,9 @@ public class MiscMethods extends Base{
 		//checking whether or not the device is locked
 		System.out.print("Is Locked?\n" + driver.isDeviceLocked());
 		
-		driver.navigate().back(); //helps the user to tap on the back button on the navigation bar
-		driver.hideKeyboard(); //Hides the keyboard to launch the other activities
-		driver.isKeyboardShown(); //Returns a boolean TRUE or FALSE based on whether or not the keyboard is hidden
+		//driver.navigate().back(); //helps the user to tap on the back button on the navigation bar
+		//driver.hideKeyboard(); //Hides the keyboard to launch the other activities
+		//driver.isKeyboardShown(); //Returns a boolean TRUE or FALSE based on whether or not the keyboard is hidden
+		
 	}
 }
